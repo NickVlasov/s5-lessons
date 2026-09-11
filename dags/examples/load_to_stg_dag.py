@@ -4,7 +4,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import pandas as pd
 from datetime import datetime, timedelta
 import logging
-import json
+import json 
 
 log = logging.getLogger(__name__)
 

@@ -8,7 +8,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from datetime import datetime, timedelta
 import requests
-import json
+import json 
 
 # -----------------------------------------------------------------------------
 # Конфигурация

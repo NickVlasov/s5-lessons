@@ -14,7 +14,7 @@
 | `order_processing_fee` | Комиссия компании: orders_total_sum × 0.25 | Вычисляется в витрине |
 | `courier_order_sum` | Сумма к выплате курьеру за заказы (по рейтингу) | Вычисляется в витрине из dds.fct_deliveries.sum + rate_avg |
 | `courier_tips_sum` | Сумма чаевых | dds.fct_deliveries.tip_sum (SUM по courier_id + месяц) |
-| `courier_reward_sum` | Итоговая выплата: courier_order_sum + courier_tips_sum × 0.95 | Вычисляется в витрине |
+| `courier_reward_sum` | Итоговая выплата: courier_order_sum + courier_tips_sum × 0.95 | Вычисляется в витрине | 
 
 > Отчёт собирается по дате заказа (order_ts), а не по дате доставки (delivery_ts).
 

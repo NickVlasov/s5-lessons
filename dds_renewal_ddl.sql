@@ -44,3 +44,4 @@ CREATE INDEX IF NOT EXISTS idx_fct_deliveries_order
 -- ==========================================
 ALTER TABLE dds.dm_orders
     ADD COLUMN IF NOT EXISTS courier_id int REFERENCES dds.dm_couriers(id);
+ 

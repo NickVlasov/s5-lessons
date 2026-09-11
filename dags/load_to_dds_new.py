@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from sqlalchemy import text  # --- НОВОЕ ---
 import logging
-import json
+import json 
 
 log = logging.getLogger(__name__)
 
